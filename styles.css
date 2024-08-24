@@ -1,31 +1,71 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background: linear-gradient(to bottom, #cb2589 5%, #e533ca 100%);
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
+    padding: 10px;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 3rem;
+    color: #ff9bff;
 }
 
 .container {
     text-align: center;
     background: white;
-    padding: 20px;
+    padding: 20px 40px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.answer-container {
+    text-align: center;
+    background: white;
+    padding: 20px 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
 }
 
 button {
     margin: 10px;
     padding: 10px 20px;
-    border: none;
+    border: 1px solid;
     border-radius: 4px;
-    background-color: #007bff;
-    color: white;
+    background-color: white;
+    color: inherit;
     cursor: pointer;
 }
 
+#new-riddle {
+    border-color: #d2dfee;
+    background-color: #d2dfee;
+    color: #476588;
+}
+
+#show-answer {
+    background-color: #e533ca;
+    color: white;
+}
+
+#new-riddle:hover {
+    background-color: #007bff;
+    color: white;
+    transition: background-color 100ms linear;
+}
+
+#show-answer:hover {
+    background-color: #be1fa6;
+    transition: background-color 100ms linear;
+}
+
 button:hover {
-    background-color: #0056b3;
+    background-color: #f0f0f0;
 }
