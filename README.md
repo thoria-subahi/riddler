@@ -1,5 +1,7 @@
 # Riddle App
 
+https://riddler.thoria.dev
+
 A simple web application that fetches random riddles from an API and displays the answer when requested. This project is designed for beginners to practice HTML, CSS, and JavaScript.
 
 ## Features
@@ -10,7 +12,7 @@ A simple web application that fetches random riddles from an API and displays th
 
 ## Demo
 
-![Riddle App Demo](riddler.png)
+![Riddle App Demo](Riddler.png)
 
 Spoiler: It's a keyboard!
 
