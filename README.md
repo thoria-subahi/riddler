@@ -12,6 +12,8 @@ A simple web application that fetches random riddles from an API and displays th
 
 ![Riddle App Demo](riddler.png)
 
+Spoiler: It's a keyboard!
+
 ## How to Use
 
 ### Prerequisites
