@@ -12,7 +12,7 @@ A simple web application that fetches random riddles from an API and displays th
 
 ## Demo
 
-![Riddle App Demo](Riddler.png)
+![Riddle App Demo](screenshot.png)
 
 Spoiler: It's a keyboard!
 
